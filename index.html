@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shakh's Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script>
+  tailwind.config = {
+   theme: {
+    extend: {
+     colors: {
+      clifford: '#da373d',
+     }
+    }
+   }
+  }
+ </script>
+ <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="bg-neutral-900	">
+    <div class="flex">
+        <aside class="h-screen w-96 sticky top-0">
+              <div class="aside-conetent h-[565px] bg-20 w-72 bg-neutral-800 rounded-[20px] mt-16 ml-16 border border-zinc-700">
+                <div class="card w-36 h-36 mt-[68px] ml-[70px] rounded-[25px] bg-neutral-700 ">
+                    <img src="/img/my-avatar.png" alt="">
+                </div>
+                <h1 class="mt-5 text-[28px] text-white ml-[53px]">Richard hanrick</h1>
+                <h1 class="bg-neutral-600 mt-3 text-[13px] text-white pl-3 w-28 h-6 ml-[90px] rounded-md    ">Web developer</h1>
+                <hr class="mt-8 w-60 ml-6 border border-neutral-700">
+                <div>
+                    <div class="flex ml-6 mt-5">
+                        <div class="mt-1 bg-neutral-600 w-10 h-10 rounded-[10px]">
+                          <h1 class="text-yellow-500 pt-2 pl-3">A</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-neutral-500	">EMAIL</h3>
+                            <h1 class="text-white">richardhanrick@example...</h1>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex ml-6 mt-5">
+                        <div class="mt-1 bg-neutral-600 w-10 h-10 rounded-[10px]">
+                          <h1 class=" text-yellow-500 pt-2 pl-3">A</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-neutral-500">PHONE</h3>
+                            <h1 class="text-white">+1 (213) 352-2795</h1>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex ml-6 mt-5">
+                        <div class="mt-1 bg-neutral-600 w-10 h-10 rounded-[10px]">
+                          <h1 class="text-yellow-500 pt-2 pl-3">A</h1>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-neutral-500">BIRTHDAY</h3>
+                            <h1 class="text-white">June 23, 1982</h1>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </aside>
+        
+        <main>
+            <div class="mb-8 w-[885px] h-[1250px] bg-neutral-800 rounded-[20px] mt-16 ml-13 border border-zinc-600">
+                <div class="container ml-9 mt-11">
+                  <h1 class="text-4xl text-white">About Me</h1>
+                  <hr class="w-[40px] border border-yellow-500 mt-7 h-1 bg-yellow-500 rounded">
+                  <h1 class="mt-[20px] w-[800px] text-white">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</h1>
+                  <h1 class="mt-[20px] w-[800px] text-white">My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</h1>
+                  <h1 class="text-4xl text-white mt-[30px]">What I'm Doing</h1>
+                  
+                  <!-- cards -->
+                  <div class="mt-[20px] flex gap-[20px]">
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                      <div class="flex ml-[40px]">
+                        <img src="	https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-design.svg" alt="">
+                        <div class="ml-[20px] mt-[40px]">
+                          <h1 class="text-white">Web Design</h1>
+                          <h3 class="w-[270px] text-neutral-300">The most modern and high-quality design made at a professional level.</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                      <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                        <div class="flex ml-[40px]">
+                          <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-dev.svg" alt="">
+                          <div class="ml-[20px] mt-[40px]">
+                            <h1 class="text-white">Web Development</h1>
+                            <h3 class="w-[270px] text-neutral-300">High-quality development of sites at the professional level.</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mt-[20px] flex gap-[20px]">
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                      <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                        <div class="flex ml-[40px] pt-[38px]">
+                          <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-app.svg" alt="">
+                          <div class="ml-[20px]">
+                            <h1 class="text-white">Mobile Apps</h1>
+                            <h3 class="w-[270px] text-neutral-300">Professional development of applications for iOS and Android.</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                      <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600">
+                        <div class="flex ml-[40px]">
+                          <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-photo.svg                          " alt="">
+                          <div class="ml-[20px] mt-[40px]">
+                            <h1 class="text-white">Photography</h1>
+                            <h3 class="w-[270px] text-neutral-300">I make high-quality photos of any category at a professional level.</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h1 class="text-4xl text-white mt-[20px]">Testimonials</h1>
+                  <div class="mt-[20px] flex gap-[20px]">
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600"></div>
+                    <div class="h-[150px] w-[400px] rounded-[20px] bg-neutral-600"></div>
+                  </div>
+                  <div class="mt-[30px] flex">
+                    <hr class="w-[300px] ml-[100px] border border-yellow-500">
+                    <hr class="w-[300px] border border-white ">
+                  </div>
+                  <h1 class="text-2xl text-white mt-[20px]">Clients</h1>
+                </div>
+                <div class="flex clear-st ml-5">
+                  <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/logo-4-color.png" alt="">
+                  <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/logo-1-color.png" alt="">
+                  <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/logo-2-color.png" alt="">
+                  <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/logo-3-color.png" alt="">
+                </div>
+                <div class="mt-[30px] ml-9 flex">
+                  <hr class="w-[450px] ml-[100px] border border-yellow-500">
+                  <hr class="w-[150px] border border-white ">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
